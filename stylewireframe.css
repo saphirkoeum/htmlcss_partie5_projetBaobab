@@ -1,0 +1,203 @@
+.PAGE {
+  width: 70%;
+  height: 700px;
+  border: solid red 2px;
+  margin: auto;
+  margin-top: 3%;
+}
+/*HEADER*/
+
+header{
+  border: solid black 2px;
+  display: flex;
+  justify-content: space-between;
+}
+#LOGO{
+  border: solid black 2px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+nav{
+  display: flex;
+  align-items: flex-end;
+}
+nav p{
+  margin-right: 30px;
+  font-size: 1.5vw;
+}
+
+/*BANNIERE*/
+
+#banniere{
+  border: solid black 2px;
+  height: 500px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+#banniere p{
+  border: solid black 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+/*PAGE2*/
+
+#PAGE2{
+  background-color: lightgrey;
+  height: 700px;
+}
+section{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  height: 500px;
+}
+#PRESTATION{
+  background-color: white;
+  border: solid black 2px;
+  grid-area: 2 / 2 / 8 / 6;
+}
+#IMAGE{
+  background-color: white;
+  border: solid black 2px;
+  grid-area: 2 / 8 / 8 / 10;
+}
+h3{
+  font-size: 1.7vw;
+  text-align: center;
+}
+
+/*PAGE 3*/
+
+#PAGE3{
+  border: solid, black, 2px;
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+  height: 600px;
+}
+#IMAGE3{
+  background-color: grey;
+  grid-area: 1 / 1 / 11 / 19;
+}
+#PROJET1{
+  background-color: lightgrey;
+  grid-area: 12 / 8 / 15 / 13;
+}
+#PHOTO1{
+  background-color: grey;
+  grid-area: 16 / 6 / 18 / 7;
+}
+#PHOTO2{
+  background-color: grey;
+  grid-area: 16 / 8 / 18 / 9;
+}
+#PHOTO3{
+  background-color: grey;
+  grid-area: 16 / 10 / 18 / 11;
+}
+#PHOTO4{
+  background-color: grey;
+  grid-area: 16 / 12 / 18 / 13;
+}
+#PHOTO5{
+  background-color: grey;
+  grid-area: 16 / 14 / 18 / 15;
+}
+
+/*PAGE 4*/
+
+#PAGE4{
+  text-align: center;
+}
+#FORMULAIRE{
+  margin: auto;
+  border: solid, black, 2px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(11, 1fr);
+}
+#NOM{
+background-color: lightgrey;
+grid-area: 2 / 3 / 3 / 7;
+}
+#NOM p{
+  margin-left: 40px;
+}
+#PRENOM{
+  background-color: grey;
+  grid-area: 3 / 3 / 4 / 7;
+}
+#PRENOM p{
+  margin-left: 40px;
+}
+#EMAIL{
+  background-color: lightgrey;
+  grid-area: 4 / 3 / 5 / 7;
+}
+#EMAIL p{
+  margin-left: 40px;
+}
+#TYPE{
+  background-color: grey;
+  grid-area: 5 / 3 / 6 / 7 ;
+}
+#TYPE p{
+  margin-left: 40px;
+}
+#PROJET{
+  background-color: lightgrey;
+  grid-area: 6 / 3 / 9 / 7;
+}
+#PROJET p{
+  margin-left: 40px;
+}
+#ENVOYER{
+  background-color: grey;
+  grid-area: 9 / 3 / 10 / 7;
+}
+#ENVOYER p{
+  text-align: center;
+}
+
+/*PAGE 5*/
+
+#PAGE5{
+  background-color: darkgrey;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: 50% 40% 10%;
+  height: 700px;
+}
+#IMAGE5{
+  background-color: grey;
+  grid-area: 1 / 1 / 2 / 3;
+  }
+#LOGO{
+  background-color: grey;
+  grid-area: 2 / 1 / 3 / 2;
+}
+#FOOTER{
+  display: flex;
+  justify-content: space-between;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+#CONTACT{
+  margin-right: 3%;
+}
+#PLAN{
+
+}
+#COPY{
+  background-color: grey;
+  grid-area: 3 / 2 / 4 / 3;
+  text-align: right;
+}
